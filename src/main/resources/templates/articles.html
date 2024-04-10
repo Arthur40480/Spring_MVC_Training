@@ -29,6 +29,9 @@
                             <td>
                                 <a class="btn btn-danger" th:href="@{/delete(id=${a.id}, page=${currentPage}, keyword=${keyword})}">Delete</a>
                             </td>
+                            <td>
+                                <a class="btn btn-primary" th:href="@{/updateForm(idArticle=${a.id})}">Update</a>
+                            </td>
                         </tr>
                     </table>
                 </div>
